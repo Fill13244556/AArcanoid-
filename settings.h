@@ -9,7 +9,7 @@ const float FPS = 60.f;
 const float BAT_WIDTH = 120.f;
 const float BAT_HEIGHT = 15.f;
 const float BAT_OFFSET = 50.f;
-const sf::Color BAT_COLOR{ sf::Color::White };
+const sf::Color BAT_COLOR{ sf::Color::Red };
 const sf::Vector2f BAT_START_POS{
 	(WINDOW_WIDTH - BAT_WIDTH) / 2,
 	WINDOW_HEIGHT - BAT_OFFSET - BAT_HEIGHT
