@@ -24,7 +24,7 @@ void updateGame(Bat& bat, Ball& ball) {
 	ballControl(ball,bat);
 }
 
-void checkCollisions() {}
+
 
 void drawGame(sf::RenderWindow& window, Bat& bat, Ball& ball) {
 	window.clear();
